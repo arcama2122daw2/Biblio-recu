@@ -31,6 +31,7 @@ if (!isset($_SESSION["nom"])) {
         <input id="tancaSessio" type="submit" value="Log Out" onclick="location='../index/logout.php'" />
     </div>
     <div class="links">
+    <a href="../metodes/bibliotecariCap/usuaris/veureExamen.php">VeureExamen</a><br><br>
         <a href="../funcions/funcionsLlibresBC.php">Eines de Llibres</a><br><br>
         <a href="../funcions/funcionsUsuarisBC.php">Eines d' Usuaris</a><br><br>
         <a href="../funcions/funcionsBibliotecaris.php">Eines de Bibliotecaris</a><br><br>

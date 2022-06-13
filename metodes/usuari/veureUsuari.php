@@ -115,7 +115,7 @@ if (!isset($_SESSION["nom"])) {
         
         <?php
 
-        $fitxer_usuaris = "../../dades/usuarisdades";
+        $fitxer_usuaris = "../../dades/usuaris";
         $fp = fopen($fitxer_usuaris, "r") or die("No s'han pogut validar els llibres");
 
         $printdeechos = "";
@@ -171,7 +171,7 @@ if (!isset($_SESSION["nom"])) {
 
     </table>
     <br><br><hr><br>
-    <a target="_blank" href= "/dompdf/html2pdf.php"><button  >Crear PDF</button></a>
+    <a target="_blank" href= "/DOMPDF/html2pdf.php"><button  >Crear PDF</button></a>
 </body>
 
 </html>

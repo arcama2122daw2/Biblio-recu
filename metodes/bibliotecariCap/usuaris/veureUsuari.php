@@ -171,7 +171,7 @@ if (!isset($_SESSION["nom"])) {
 
     </table>
     <br><br><hr><br>
-    <a target="_blank" href= "/dompdf/html2pdf.php"><button  >Crear PDF</button></a>
+    <a target="_blank" href= "../DOMPDF/html2pdf.php"><button  >Crear PDF</button></a>
 </body>
 
 </html>

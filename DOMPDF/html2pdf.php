@@ -4,7 +4,7 @@
     // Codi Font --> https://github.com/dompdf/dompdf
     //
     // Accedint al framework
-    require_once '../../vendor/autoload.php'; //path relatiu al directori a on està el codi principal del projecte 
+    require_once '../dompdf/vendor/autoload.php'; //path relatiu al directori a on està el codi principal del projecte 
     use Dompdf\Dompdf; // equivalent a  use Dompdf\Dompdf as Dompdf;
 	//
 	// Utilitzant la classe Dompdf del framework
